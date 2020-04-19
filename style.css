@@ -1,0 +1,32 @@
+body, html {
+  width: 100%;
+  height: 100%;
+  background: url(https://images.unsplash.com/photo-1468186402854-9a641fd7a7c4?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80) no-repeat center center fixed;
+  background-size: cover;
+}
+
+.container h1 {
+  font-family: 'Manrope', sans-serif;
+  font-size: 4rem;
+  color: #FFFAED;
+}
+
+.container .buffer {
+  height: 6rem;
+}
+
+.container .btn {
+  border-radius: 300px;
+  border: none;
+}
+
+.container .btn-primary {
+  background-color: #927b8b;
+  font-family: 'Manrope', sans-serif;
+  text-transform: uppercase;
+}
+
+.container .btn-primary:hover {
+  background-color: #927b8b;
+  border: none;
+}
